@@ -1,0 +1,101 @@
+:root {
+    --primary: #709ce3;
+    --text: #000000;
+    --text-light: #474747;
+    --secondary: #f8ebb7;
+    --white: #ffffff;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 10;
+    font-size: 1.1rem;
+  }
+  
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  nav, section > div {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  header {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sitename {
+    color: var(--secondary);
+    font-weight: 700;
+    font-size: 35px;
+    padding-left: 20px;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: white;
+    text-align: right;
+  }
+  .navbar li {
+    margin-right: 48px;
+    font-weight: 500;
+    font-size: 20px;
+    display: inline-block;
+  }
+  .navbar a:hover {
+    color: #f8ebb7;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    background-image: url('Images/whitebackground.jpg');
+    background-color: #5a5a5ae1;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+  .section1 {
+    padding: 20px;
+  }
+  .section2 {
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  button {
+    padding: 10px 24px;
+    background-color: rgb(255, 173, 20);
+    border: solid 2px rgb(253, 211, 133);
+    border-radius: 4px;
+    color: var(--text);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  button a:hover {
+    color: white;
+  }
+  .footer {
+    background-color: var(--primary);
+    color: var(--white);
+    font-weight: 300;
+    font-size: 18px;
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+  }
