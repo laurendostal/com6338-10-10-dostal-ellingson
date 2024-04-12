@@ -2,6 +2,10 @@ const select = document.querySelectorAll('.currency');
     const number = document.getElementById("number");
     const output = document.getElementById("output");
 
+    // Set default currencies
+let currency1 = 'USD';
+let currency2 = 'CAD';
+
 
     fetch('https://api.frankfurter.app/currencies').then((data) => data.json())
       .then((data) => {
