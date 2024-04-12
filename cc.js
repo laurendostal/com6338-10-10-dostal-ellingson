@@ -45,3 +45,6 @@ const select = document.querySelectorAll('.currency');
         });
 
     }
+
+    // Add event listener to input element to update output value when input changes
+number.addEventListener('input', updatevalue);
