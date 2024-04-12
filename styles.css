@@ -141,6 +141,7 @@ button a:hover {
   width: 100%;
   max-width: 480px;
   text-align: center;
+  padding: 20px; /* Add  padding here */
 }
 
 input,
@@ -208,4 +209,31 @@ h2 {
   top: 50%;
   right: 1.125em;
   margin-top: -0.4375em;
+}
+
+/* Small and medium screens */
+@media only screen and (max-width: 1024px) {
+  .navbar {
+    flex-direction: column; /* Stack navigation items vertically */
+  }
+
+  .navbar-list {
+    width: 100%; /* Ensure full width for each navigation item */
+    text-align: center; /* Center align navigation items */
+  }
+
+  .navbar-list li {
+    margin-bottom: 10px; /* Add some spacing between navigation items */
+    width: 100%; /* Make each navigation item take up full width */
+  }
+
+  .navbar-list a {
+    font-size: 0.9rem; /* Adjust font size for small and medium screens */
+    padding: 30px; /* Add padding to the links */
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1025px) {
+  /* Styles for large screens */
 }
