@@ -2,56 +2,57 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>currency converter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currency Calculator</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
   <header class="header">
     <h1 class="sitename">Currency Calculator</h1>
     <nav class="navbar">
-        <ul class="navbar-list" id="main-menu">
+      <ul class="navbar-list" id="main-menu">
         <li><a href="index.html">Home</a></li>
         <li><a href="currencyname.html">Currency Lookup</a></li>
         <li><a href="cc.html">Currency Converter</a></li>
-        </ul>
+      </ul>
     </nav>
-</header>
-    <div class="currency-row-outer">
-        <div class="currency-converter">
-          <h2>Currency Converter</h2>
-    
-          <div class="field grid-50-50">
-            <div class="colmun col-left">
-              <input type="number" class="form-input" id="number" placeholder="00000">
-            </div>
-            <div class="colmun col-right">
-              <div class="select">
-                <select name="currency" class="currency" onchange="updatevalue()"></select>
-              </div>
-            </div>
+  </header>
+  <div class="ccbanner">
+</div>
+  <div class="currency-row-outer">
+    <div class="currency-converter">
+      <h2>Currency Converter</h3>
+      <div class="field grid-50-50">
+        <div class="columncol-left">
+          <input type="number" class="form-input" id="number" placeholder="00000">
+        </div>
+        <div class="columncol-right">
+          <div class="select">
+            <select name="currency" class="currency" onchange="updatevalue()"></select>
           </div>
-    
-          <div class="field grid-50-50">
-            <div class="colmun col-left">
-              <input type="text" class="form-input" id="output" placeholder="00000" disabled>
-            </div>
-            <div class="colmun col-right">
-              <div class="select">
-                <select name="currency" class="currency" onchange="updatevalue()"></select>
-              </div>
-            </div>
-          </div>
-    
         </div>
       </div>
-    <script src="cc.js"></script>
+
+      <div class="field grid-50-50">
+        <div class="column col-left">
+          <input type="text" class="form-input" id="output" placeholder="00000" disabled>
+        </div>
+        <div class="column col-right">
+          <div class="select">
+            <select name="currency" class="currency" onchange="updatevalue()"></select>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="cc.js"></script>
 </body>
 
 </html>

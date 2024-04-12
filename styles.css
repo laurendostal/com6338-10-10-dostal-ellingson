@@ -117,6 +117,18 @@ button a:hover {
 
 /*Start Currency Converter*/
 
+.ccbanner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  background-image: url('Images/ccbg@2x.png');
+  background-color: #5a5a5ae1;
+  background-position: center;
+  background-size: cover
+}
+
 
 .currency-row-outer {
   display: flex;
@@ -154,7 +166,7 @@ select {
   grid-gap: 15px;
 }
 
-.currency-converter .colmun {
+.currency-converter .z{
   margin-bottom: 15px;
 }
 
