@@ -97,7 +97,6 @@ button {
   color: var(--text);
   font-size: 1rem;
   cursor: pointer;
-  transition: 200ms;
 }
 
 button a:hover {
@@ -115,6 +114,7 @@ button a:hover {
 }
 
 /* Start Currency Lookup */
+
 .searchbanner {
   display: flex;
   flex-direction: column;
@@ -175,7 +175,7 @@ button a:hover {
   width: 100%;
   max-width: 480px;
   text-align: center;
-  padding: 20px; /* Add  padding here */
+  padding: 20px;
 }
 
 input,
@@ -248,32 +248,32 @@ h2 {
 
 @media only screen and (max-width: 768px) {
   header {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    text-align: center; /* Center text */
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 
   .sitename {
-    margin-bottom: 5px; /* Add some space between the sitename and the navigation */
+    margin-bottom: 5px;
   }
 
   .navbar {
     margin-top: 5px;
-    margin-bottom: 20px; /* Add some space between the navigation and the sitename */
+    margin-bottom: 20px;
   }
 
   .navbar ul {
-    text-align: center; /* Center the navigation links */
+    text-align: center;
   }
 
   .navbar li {
-    display: block; /* Make each navigation item take up full width */
-    margin: 10px 0; /* Add some space between navigation items */
+    display: block;
+    margin: 10px 0;
   }
 
   .navbar-list a {
-    font-size: 20px; /* Adjust font size for small screens */
-    padding: 10px; /* Add padding to the links */
+    font-size: 20px;
+    padding: 10px;
   }
 }
 
@@ -281,26 +281,21 @@ h2 {
 /* medium screens */
 @media only screen and (max-width: 1024px) {
 .navbar {
-  flex-direction: column; /* Stack navigation items vertically */
+  flex-direction: column;
 }
 
 .navbar-list {
-  width: 100%; /* Ensure full width for each navigation item */
-  text-align: center; /* Center align navigation items */
+  width: 100%;
+  text-align: center;
 }
 
 .navbar-list li {
-  margin-bottom: 10px; /* Add some spacing between navigation items */
-  width: 100%; /* Make each navigation item take up full width */
+  margin-bottom: 10px;
+  width: 100%;
 }
 
 .navbar-list a {
-  font-size: 0.9rem; /* Adjust font size for small and medium screens */
-  padding: 30px; /* Add padding to the links */
+  font-size: 20px;
+  padding: 30px;
 }
-}
-
-/* Large screens */
-@media only screen and (min-width: px) 1200{
-/* Styles for large screens */
 }
