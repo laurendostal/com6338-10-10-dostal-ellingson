@@ -9,7 +9,6 @@
 html,
 body {
   margin: 0;
-  padding: 10;
   font-size: 1.1rem;
 }
 
@@ -125,11 +124,9 @@ button a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background-image: url('Images/currencyname.jpg');
+  height: auto;
   background-position: center;
   background-size: cover;
-  background-blend-mode: overlay;
 }
 
 .searchinput {
