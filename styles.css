@@ -165,9 +165,7 @@ button a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background-image: url('Images/ccbg@2x.png');
-  background-color: #5a5a5ae1;
+  height: auto;
   background-position: center;
   background-size: cover
 }
