@@ -67,12 +67,8 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 600px;
-  background-image: url('Images/whitebackground.jpg');
-  background-color: #5a5a5ae1;
-  background-position: center;
+  height: auto;
   background-size: cover;
-  background-blend-mode: overlay;
 }
 
 .section1 {
