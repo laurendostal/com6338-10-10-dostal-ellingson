@@ -250,29 +250,61 @@ h2 {
   margin-top: -0.4375em;
 }
 
-/* Small and medium screens */
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
+  header {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    text-align: center; /* Center text */
+  }
+
+  .sitename {
+    margin-bottom: 5px; /* Add some space between the sitename and the navigation */
+  }
+
   .navbar {
-    flex-direction: column; /* Stack navigation items vertically */
+    margin-top: 5px;
+    margin-bottom: 20px; /* Add some space between the navigation and the sitename */
   }
 
-  .navbar-list {
-    width: 100%; /* Ensure full width for each navigation item */
-    text-align: center; /* Center align navigation items */
+  .navbar ul {
+    text-align: center; /* Center the navigation links */
   }
 
-  .navbar-list li {
-    margin-bottom: 10px; /* Add some spacing between navigation items */
-    width: 100%; /* Make each navigation item take up full width */
+  .navbar li {
+    display: block; /* Make each navigation item take up full width */
+    margin: 10px 0; /* Add some space between navigation items */
   }
 
   .navbar-list a {
-    font-size: 0.9rem; /* Adjust font size for small and medium screens */
-    padding: 30px; /* Add padding to the links */
+    font-size: 20px; /* Adjust font size for small screens */
+    padding: 10px; /* Add padding to the links */
   }
 }
 
+
+/* medium screens */
+@media only screen and (max-width: 1024px) {
+.navbar {
+  flex-direction: column; /* Stack navigation items vertically */
+}
+
+.navbar-list {
+  width: 100%; /* Ensure full width for each navigation item */
+  text-align: center; /* Center align navigation items */
+}
+
+.navbar-list li {
+  margin-bottom: 10px; /* Add some spacing between navigation items */
+  width: 100%; /* Make each navigation item take up full width */
+}
+
+.navbar-list a {
+  font-size: 0.9rem; /* Adjust font size for small and medium screens */
+  padding: 30px; /* Add padding to the links */
+}
+}
+
 /* Large screens */
-@media only screen and (min-width: 1025px) {
-  /* Styles for large screens */
+@media only screen and (min-width: px) 1200{
+/* Styles for large screens */
 }
