@@ -69,8 +69,7 @@
     align-items: center;
     justify-content: center;
     height: 600px;
-    background-image: url('Images/whitebackground.jpg');
-    background-color: #5a5a5ae1;
+    background-image: url('Images/currencyname.jpg');
     background-position: center;
     background-size: cover;
     background-blend-mode: overlay;
